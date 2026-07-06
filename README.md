@@ -1,6 +1,6 @@
-# Entrepreneuriat Digital
+# Service-Connect Afrique
 
-Plateforme web pour promouvoir l'entrepreneuriat digital au Mali.
+Plateforme web pour mettre en relation cliens et prestateurs.
 
 ## Technologies
 - Frontend : HTML, CSS, JavaScript, React
@@ -8,11 +8,11 @@ Plateforme web pour promouvoir l'entrepreneuriat digital au Mali.
 - Base de données : MongoDB
 
 ## Fonctionnalités
-- Présentation de ressources pour entrepreneurs
+- Présentation de ressources pour les prestateurs
 - Formulaire de contact
 - Design responsive
 
 ## Installation
-1. git clone https://github.com/ibrahimbolo20/Entrepreneuriat-Digital.git
+1. git clone https://github.com/ibrahimbolo20/serviceconnect-afrique.git
 2. npm install
 3. npm start
