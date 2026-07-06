@@ -1,0 +1,8 @@
+{
+  "name": "ServiceConnect Afrique",
+  "description": "Plateforme web de mise en relation de services multi-domaines pour l'Afrique, avec réservation, paiement Mobile Money et tableau de bord complet.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.25" />
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Background rounded card -->
+  <rect width="512" height="512" rx="112" fill="url(#amberGrad)" />
+  <rect width="512" height="512" rx="112" fill="url(#glowGrad)" />
+
+  <!-- Outer connecting loop -->
+  <circle cx="256" cy="256" r="150" fill="none" stroke="#ffffff" stroke-width="20" stroke-linecap="round" opacity="0.15" />
+
+  <!-- Core emblem group -->
+  <g filter="url(#dropShadow)">
+    <!-- Central visual path representing letters S and C intersecting (ServiceConnect) -->
+    <path d="M 190,140 
+             C 190,140 290,120 340,170 
+             C 380,210 320,270 256,270 
+             C 180,270 140,320 170,380 
+             C 210,430 330,400 330,400" 
+          fill="none" 
+          stroke="#ffffff" 
+          stroke-width="42" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+    
+    <!-- Connection node dots representing network/partners -->
+    <circle cx="190" cy="140" r="24" fill="#1e293b" stroke="#ffffff" stroke-width="8" />
+    <circle cx="330" cy="400" r="24" fill="#1e293b" stroke="#ffffff" stroke-width="8" />
+    <circle cx="256" cy="270" r="20" fill="#f59e0b" stroke="#ffffff" stroke-width="6" />
+  </g>
+
+  <!-- Highlighting spark -->
+  <path d="M 360,130 L 380,150 M 380,130 L 360,150" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.8" />
+  <circle cx="370" cy="140" r="4" fill="#ffffff" />
+</svg>
